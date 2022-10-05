@@ -13,15 +13,15 @@ class MyApp extends StatelessWidget {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            CircleAvatar(
+            const CircleAvatar(
               radius: 60.0,
               backgroundColor: Colors.white,
               backgroundImage: AssetImage("assets/images/persona1.jpeg"),
             ),
-            SizedBox(
+            const SizedBox(
               height: 30.0,
             ),
-            Text(
+            const Text(
               "Fiorela de Fátima Guadalupe",
               style: TextStyle(
                 color: Colors.white,
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
                 fontStyle: FontStyle.italic,
               ),
             ),
-            Text(
+            const Text(
               "FLUTTER DEVELOPER",
               style: TextStyle(
                 color: Colors.white38,
@@ -40,16 +40,16 @@ class MyApp extends StatelessWidget {
                 letterSpacing: 2.0,
               ),
             ),
-            Divider(
+            const Divider(
               thickness: 0.70,
               color: Colors.white38,
               indent: 120.0,
               endIndent: 120.0,
             ),
-            SizedBox(
+            const SizedBox(
               height: 10.0,
             ),
-            Card(
+            const Card(
               color: Colors.white,
               margin: EdgeInsets.symmetric(horizontal: 15.0, vertical: 8.0),
               elevation: 10.0,
@@ -66,7 +66,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ),
-            Card(
+            const Card(
               color: Colors.white,
               margin: EdgeInsets.symmetric(horizontal: 15.0, vertical: 8.0),
               elevation: 10.0,
@@ -83,7 +83,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 30.0,
             ),
             Row(
@@ -93,14 +93,14 @@ class MyApp extends StatelessWidget {
                   "assets/images/facebook.png",
                   height: 60.0,
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 30.0,
                 ),
                 Image.asset(
                   "assets/images/instagram.png",
                   height: 60.0,
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 30.0,
                 ),
                 Image.asset(
