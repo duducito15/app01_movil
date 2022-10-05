@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
             CircleAvatar(
               radius: 60.0,
               backgroundColor: Colors.white,
-              backgroundImage: AssetImage("assets/images/persona2.jpeg"),
+              backgroundImage: AssetImage("assets/images/persona1.jpeg"),
             ),
             SizedBox(
               height: 30.0,
@@ -25,9 +25,10 @@ class MyApp extends StatelessWidget {
               "Fiorela de Fátima Guadalupe",
               style: TextStyle(
                 color: Colors.white,
-                fontSize: 25.0,
-                fontWeight: FontWeight.bold,
+                fontSize: 35.0,
+                fontWeight: FontWeight.w800,
                 fontFamily: "Dancing",
+                fontStyle: FontStyle.italic,
               ),
             ),
             Text(
@@ -82,14 +83,30 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(
+              height: 30.0,
+            ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(Icons.alarm),
-                SizedBox(
-                  width: 10.0,
+                Image.asset(
+                  "assets/images/facebook.png",
+                  height: 60.0,
                 ),
-                Icon(Icons.alarm),
-                Icon(Icons.alarm),
+                SizedBox(
+                  width: 30.0,
+                ),
+                Image.asset(
+                  "assets/images/instagram.png",
+                  height: 60.0,
+                ),
+                SizedBox(
+                  width: 30.0,
+                ),
+                Image.asset(
+                  "assets/images/twitter.png",
+                  height: 60.0,
+                ),
               ],
             ),
           ],
